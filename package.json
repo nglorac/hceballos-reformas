@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build && node scripts/post-build.js",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:hceballos-reformas": "node dist/hceballos-reformas/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "packageManager": "npm@11.9.0",
@@ -26,7 +25,7 @@
   },
   "devDependencies": {
     "@angular/build": "^22.0.1",
-    "@angular/cli": "^21.2.8",
+    "@angular/cli": "^21.2.29",
     "@angular/compiler-cli": "^22.0.1",
     "@tailwindcss/postcss": "^4.1.12",
     "@types/express": "^5.0.1",
@@ -35,7 +34,7 @@
     "postcss": "^8.5.25",
     "prettier": "^3.8.1",
     "tailwindcss": "^4.1.12",
-    "typescript": "~5.9.2",
+    "typescript": "~6.0.3",
     "vitest": "^4.0.8"
   }
 }
